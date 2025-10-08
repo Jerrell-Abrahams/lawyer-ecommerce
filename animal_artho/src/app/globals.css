@@ -2,7 +2,9 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #6f8a9b;
+  --secondary: #323232;
+  --accent: #217f7f;
 }
 
 @theme inline {
