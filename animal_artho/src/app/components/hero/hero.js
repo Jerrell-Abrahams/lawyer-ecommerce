@@ -1,8 +1,22 @@
 import { Button } from "../button/button";
+import Section from "../section/section";
 
-const Hero = () => {
+const Hero = ({ variant, image }) => {
+  if (variant === "banner") {
+    return (
+      <div className="w-full pt-5">
+        {image && (
+          <img
+            src={image}
+            alt="Banner"
+            className="w-full h-48 object-cover"
+          />
+        )}
+      </div>
+    );
+  }
+
   return (
-    <section className="pt-32 pb-20 px-6 lg:px-8">
       <div className="container mx-auto max-w-5xl text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-foreground mb-8 leading-tight">
@@ -19,18 +33,15 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground group" asChild>
-              <a href="/contact">
-                Request Quote
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" asChild>
+<Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground group" >
+  <a href="/contact">Request Quote</a>
+</Button>
+            <Button size="lg" variant="outline" >
               <a href="/about">Learn More</a>
             </Button>
           </div>
         </div>
       </div>
-    </section>
   );
 };
 
