@@ -3,8 +3,8 @@
 // import Features from "@/components/Features";
 // import Footer from "@/components/Footer";
 
-import Navbar from "./components/navbar/navbar";
 import Hero from "./components/hero/hero";
+import Section from "./components/section/section";
 const Index = () => {
 
   // #TODO: Navbar and Hero Jerrell
@@ -12,10 +12,10 @@ const Index = () => {
   // #TODO: About Page and cards Jason
   
   return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
+    <Section>
       <Hero />
-    </div>
+
+    </Section>
   );
 };
 
