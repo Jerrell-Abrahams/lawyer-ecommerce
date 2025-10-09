@@ -5,6 +5,8 @@
 
 import Hero from "./components/hero/hero";
 import Section from "./components/section/section";
+import MapSection from "./components/map_section/map_section";
+
 const Index = () => {
 
   // #TODO: Navbar and Hero Jerrell
@@ -14,7 +16,7 @@ const Index = () => {
   return (
     <Section>
       <Hero />
-
+      <MapSection />
     </Section>
   );
 };
