@@ -18,16 +18,14 @@ const Hero = ({ variant, image }) => {
   return (
     <div className="container mx-auto max-w-5xl text-center">
       <div className="animate-fade-in justify-center items-center flex flex-col min-h-[70vh] px-4 sm:px-0">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-foreground mb-8 leading-tight">
-          Wildlife.
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+          Supporting Mobility,
           <br />
-          Art.
-          <br />
-          <span className="text-gray-400">Creative.</span>
+          <span className="text-gray-400">One Step at a Time</span>
         </h1>
 
         <p className="text-lg md:text-xl text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Giving animals a voice through every brushstroke, every design — because their stories deserve to be seen and felt.
+          Empowering animals through every step, every design — because their mobility stories deserve to be supported and celebrated
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

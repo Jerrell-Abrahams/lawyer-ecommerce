@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { Button } from "../button/button";
+import Image from "next/image";
 
 const Navbar = () => {
     return (
@@ -6,18 +8,21 @@ const Navbar = () => {
             <div className="container mx-auto px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16 ">
                     <div className="flex items-center h-16">
-                        <img
-                            src="images/logo.png"
-                            alt="AnimalOrtho Logo"
-                            className="h-16 w-auto max-w-[14rem] object-contain"
-                            style={{ maxHeight: "4rem" }}
-                        />
+                        <Link href="/">
+                        <Image
+                                src="/images/logo.png"
+                                alt="logo"
+                                fill            // makes it cover the parent div
+                                style={{ maxHeight: "4rem" }}
+                                className="h-16 w-auto max-w-[14rem] object-contain"
+                            />
+                        </Link>
                     </div>
 
                     <div className="hidden md:flex items-center space-x-8">
-                        <a href="/" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
+                        <Link href="/" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
                             Home
-                        </a>
+                        </Link>
                         <a href="/about" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
                             About
                         </a>

@@ -19,7 +19,7 @@ const Button = ({
   };
 
   const defaultStyle =
-    "bg-[#217f7f] text-white hover:bg-white hover:text-black";
+    "bg-[#217f7f] text-white hover:bg-white hover:text-black text-center";
   const inverseStyle =
     "bg-white text-[#217f7f] hover:bg-[#217f7f] hover:text-white border-[#217f7f]";
 
