@@ -1,9 +1,8 @@
 import Section from "../section/section";
 import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from "lucide-react";
 
-export default function MapSection() {
+export default function  MapSection() {
   return (
-    <Section className="bg-gray-50 text-black px-4 py-0">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-center">
         {/* Left Side: Contact Info */}
         <div className="md:w-1/2 flex flex-col gap-6">
@@ -62,6 +61,5 @@ export default function MapSection() {
           ></iframe>
         </div>
       </div>
-    </Section>
   );
 }

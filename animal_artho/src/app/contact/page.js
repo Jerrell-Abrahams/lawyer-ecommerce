@@ -70,8 +70,13 @@ export default function ContactPage() {
                         </form>
                     </Card>
                 </div>
-                <MapSection />
+                <div className='py-8'>
+
+                            <MapSection />
+                </div>
+
             </Section>
+            
         </div>
     );
 }
