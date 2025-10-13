@@ -1,6 +1,5 @@
 import Hero from "./components/hero/hero";
 import Section from "./components/section/section";
-import MapSection from "./components/map_section/map_section";
 import Image from "next/image";
 
 const Index = () => {
@@ -8,10 +7,8 @@ const Index = () => {
     <Section>
       <Hero />
 
-      {/* Section 1 — Image Right */}
       <div className="max-w-5xl mx-auto px-5 py-16">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Text */}
           <div className="md:w-1/2 h-56 md:h-64 flex items-center">
             <div>
               <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
@@ -27,13 +24,12 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Image */}
           <div className="md:w-1/2 w-full">
             <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
               <Image
                 src="/images/horse.jpg"
                 alt="horse.jpg"
-                fill            // makes it cover the parent div
+                fill
                 style={{ objectFit: "cover" }}
               />
             </div>
@@ -41,10 +37,8 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Section 2 — Image Left */}
       <div className="max-w-5xl mx-auto px-5 py-16">
         <div className="flex flex-col md:flex-row-reverse items-center gap-12">
-          {/* Text */}
           <div className="md:w-1/2 h-56 md:h-64 flex items-center">
             <div>
               <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
@@ -60,13 +54,12 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Image */}
           <div className="md:w-1/2 w-full">
             <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
               <Image
                 src="/images/doggy.jpg"
                 alt="horse.jpg"
-                fill            // makes it cover the parent div
+                fill
                 style={{ objectFit: "cover" }}
               />
             </div>
@@ -75,10 +68,8 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Section 3 — Image Right */}
       <div className="max-w-5xl mx-auto px-5 py-16">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Text */}
           <div className="md:w-1/2 h-56 md:h-64 flex items-center">
             <div>
               <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
@@ -93,13 +84,12 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Image */}
           <div className="md:w-1/2 w-full">
             <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
               <Image
                 src="/images/puppy.jpg"
                 alt="horse.jpg"
-                fill            // makes it cover the parent div
+                fill
                 style={{ objectFit: "cover" }}
               />
             </div>

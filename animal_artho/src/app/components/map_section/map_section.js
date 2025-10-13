@@ -3,11 +3,11 @@ import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from "lucide-react"
 
 export default function MapSection() {
   return (
-    <Section className="bg-gray-50 text-black px-4 py-0"> 
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start">
+    <Section className="bg-gray-50 text-black px-4 py-0">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-center">
         {/* Left Side: Contact Info */}
         <div className="md:w-1/2 flex flex-col gap-6">
-          <h3 className="text-2xl font-semibold text-neutral-800 mb-4">Contact Us</h3>
+          <h1 className="text-2xl font-semibold text-neutral-800 mb-4">Contact Us</h1>
 
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
@@ -16,7 +16,12 @@ export default function MapSection() {
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-5 h-5 text-accent" />
-              <span>Call/WhatsApp 073 617 2471</span>
+              <a
+                href="tel:0736172471"
+                className="text-black hover:underline"
+              >
+                 073 617 2471
+              </a>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-black" />
@@ -53,7 +58,7 @@ export default function MapSection() {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className="rounded-md border-0"
+            className="rounded-md border-0 shadow-lg"
           ></iframe>
         </div>
       </div>

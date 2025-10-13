@@ -9,17 +9,17 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16 ">
                     <div className="flex items-center h-16">
                         <Link href="/">
-                        <Image
+                            <Image
                                 src="/images/logo.png"
                                 alt="logo"
-                                fill            // makes it cover the parent div
+                                fill
                                 style={{ maxHeight: "4rem" }}
                                 className="h-16 w-auto max-w-[14rem] object-contain"
                             />
                         </Link>
                     </div>
 
-                    <div className="hidden md:flex items-center space-x-8">
+                    <div className="hidden md:flex md:justify-center items-center space-x-8">
                         <Link href="/" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
                             Home
                         </Link>
@@ -32,11 +32,9 @@ const Navbar = () => {
                     </div>
 
                     <div className="flex items-center space-x-4">
-                        <Button variant="inverse" size="sm">
-                            Sign in
-                        </Button>
+
                         <Button size="sm" className="bg-accent hover:bg-accent/90">
-                            Get Started
+                            Request Quote
                         </Button>
                     </div>
                 </div>
