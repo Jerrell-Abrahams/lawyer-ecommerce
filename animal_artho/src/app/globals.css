@@ -30,3 +30,8 @@ body {
 h1 {
   font-family: var(--font-inter), Arial, Helvetica, sans-serif;
 }
+
+.nav_links {
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}

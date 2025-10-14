@@ -4,40 +4,35 @@ import Image from "next/image";
 
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50  bg-white shadow-md">
-            <div className="container mx-auto px-6 lg:px-8">
-                <div className="flex items-center justify-between h-16 ">
-                    <div className="flex items-center h-16">
-                        <Link href="/">
-                            <Image
-                                src="/images/logo.png"
-                                alt="logo"
-                                fill
-                                style={{ maxHeight: "4rem" }}
-                                className="h-16 w-auto max-w-[14rem] object-contain"
-                            />
-                        </Link>
-                    </div>
+        <nav className="fixed w-full flex items-center justify-evenly h-16 z-50 shadow-md bg-blur-sm bg-white/75 backdrop-blur-md">
+            <div className="w-[33%] relative h-16">
+                <Link href="/">
+                    <Image
+                        src="/images/logo.png"
+                        alt="logo"
+                        fill
+                        style={{ maxHeight: "4rem" }}
+                        className="h-16 w-auto max-w-[14rem] object-contain"
+                    />
+                </Link>
+            </div>
 
-                    <div className="hidden md:flex md:justify-center items-center space-x-8">
-                        <Link href="/" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
-                            Home
-                        </Link>
-                        <a href="/about" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
-                            About
-                        </a>
-                        <a href="/contact" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
-                            Contact
-                        </a>
-                    </div>
+            <div className="hidden md:flex md:justify-center items-center space-x-8 w-[33%]">
+                <Link href="/" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
+                    Home
+                </Link>
+                <a href="/about" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
+                    About
+                </a>
+                <a href="/contact" className="text-sm text-muted-foreground hover:text-accent hover:underline underline-offset-4 transition-colors">
+                    Contact
+                </a>
+            </div>
 
-                    <div className="flex items-center space-x-4">
-
-                        <Button size="sm" className="bg-accent hover:bg-accent/90">
-                            Request Quote
-                        </Button>
-                    </div>
-                </div>
+            <div className="w-[33%] flex justify-end px-8">
+                <Button size="sm" className="bg-accent hover:bg-accent/90">
+                    Request Quote
+                </Button>
             </div>
         </nav>
     );

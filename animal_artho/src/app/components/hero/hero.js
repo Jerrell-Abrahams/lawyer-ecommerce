@@ -21,7 +21,7 @@ const Hero = ({ variant, image }) => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
           Supporting Mobility,
           <br />
-          <span className="text-gray-400">One Step at a Time</span>
+          <span className="text-gray-400">One Step at a Time.</span>
         </h1>
 
         <p className="text-lg md:text-xl text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
