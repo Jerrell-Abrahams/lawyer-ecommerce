@@ -12,14 +12,10 @@ const Index = () => {
           <div className="md:w-1/2 h-56 md:h-64 flex items-center">
             <div>
               <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
-                Restoring Mobility
+                Precision OrthopaedicImplants & Instruments
               </h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Every step matters. Through innovative orthopedic solutions,
-                we help animals regain their natural movement after injury or
-                surgery. Our prosthetic components are designed to work with
-                veterinarians and rehab specialists, ensuring comfort,
-                durability, and improved mobility for each patient.
+                We supply veterinarians with expertly engineered implants and surgical instruments designed for accuracy, durability, and ease of use. Every product is developed to meet the exacting standards of modern veterinary orthopaedicsurgery.
               </p>
             </div>
           </div>
@@ -42,14 +38,10 @@ const Index = () => {
           <div className="md:w-1/2 h-56 md:h-64 flex items-center">
             <div>
               <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
-                Precision Engineering
+                Custom Solutions for Complex Cases
               </h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Our prosthetic components are engineered with precision and
-                care. By understanding the unique anatomy of each species, we
-                supply parts that integrate seamlessly into veterinary treatment
-                plans. This ensures reliable performance and improved patient
-                outcomes for animals in need of orthopedic support.
+                Our  team  collaborates  with  veterinarians  to  design  bespoke orthopaediccomponents  and  case-specific instruments —ensuring optimal fit, function, and patient outcomes.
               </p>
             </div>
           </div>
@@ -73,14 +65,64 @@ const Index = () => {
           <div className="md:w-1/2 h-56 md:h-64 flex items-center">
             <div>
               <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
-                Supporting Veterinary Care
+                Surgical Planning & Technical Support
               </h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                We partner with veterinary clinics, animal hospitals, and rehab
-                specialists to provide high-quality prosthetic parts. By
-                handling the supply side, we enable professionals to focus on
-                what truly matters — helping animals heal, move, and thrive.
+                We  provide  pre-operative  guidance,  product  selection  assistance,  and  technical  support  to  help veterinary professionals achieve the best surgical results.
               </p>
+            </div>
+          </div>
+
+          <div className="md:w-1/2 w-full">
+            <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
+              <Image
+                src="/images/puppy.jpg"
+                alt="horse.jpg"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-5xl mx-auto px-5 py-16">
+        <div className="flex flex-col md:flex-row items-center gap-12">
+          <div className="md:w-1/2 h-56 md:h-64 flex items-center">
+            <div>
+              <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
+                Education & Training
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Through  workshops,  demonstrations,  and  online  resources,  we  empower  veterinarians  with  the latest techniques and innovations in animal orthopaediccare.
+              </p>
+            </div>
+          </div>
+
+          <div className="md:w-1/2 w-full">
+            <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
+              <Image
+                src="/images/puppy.jpg"
+                alt="horse.jpg"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-5xl mx-auto px-5 py-16">
+        <div className="flex flex-col md:flex-row items-center gap-12">
+          <div className="md:w-1/2 h-56 md:h-64 flex items-center">
+            <div>
+              <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
+                Reliable Supply & After-Sales Service
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Animal Ortho Solutions ensures consistent availability of essential products, prompt delivery, and responsive post-purchase support to keep your practice running smoothly.              </p>
             </div>
           </div>
 

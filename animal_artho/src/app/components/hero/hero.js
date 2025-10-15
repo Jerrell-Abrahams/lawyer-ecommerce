@@ -19,9 +19,9 @@ const Hero = ({ variant, image }) => {
     <div className="container mx-auto max-w-5xl text-center">
       <div className="animate-fade-in justify-center items-center flex flex-col min-h-[70vh] px-4 sm:px-0">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
-          Supporting Mobility,
+          Precision Orthopaedic,
           <br />
-          <span className="text-gray-400">One Step at a Time.</span>
+          <span className="text-gray-400">Solutions for Every Animal.</span>
         </h1>
 
         <p className="text-lg md:text-xl text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
