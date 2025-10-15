@@ -1,6 +1,7 @@
 import Hero from "./components/hero/hero";
 import Section from "./components/section/section";
 import Image from "next/image";
+import Products from "./components/products/products";
 
 const Index = () => {
   return (
@@ -12,7 +13,7 @@ const Index = () => {
           <div className="md:w-1/2 h-56 md:h-64 flex items-center">
             <div>
               <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
-                Precision OrthopaedicImplants & Instruments
+                Precision Orthopaedic Implants & Instruments
               </h3>
               <p className="text-lg text-gray-700 leading-relaxed">
                 We supply veterinarians with expertly engineered implants and surgical instruments designed for accuracy, durability, and ease of use. Every product is developed to meet the exacting standards of modern veterinary orthopaedicsurgery.
@@ -23,8 +24,8 @@ const Index = () => {
           <div className="md:w-1/2 w-full">
             <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
               <Image
-                src="/images/horse.jpg"
-                alt="horse.jpg"
+                src="/images/instrument_4.jpg"
+                alt="instrument image"
                 fill
                 style={{ objectFit: "cover" }}
               />
@@ -49,8 +50,8 @@ const Index = () => {
           <div className="md:w-1/2 w-full">
             <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
               <Image
-                src="/images/doggy.jpg"
-                alt="horse.jpg"
+                src="/images/puppy.jpg"
+                alt="instrument image"
                 fill
                 style={{ objectFit: "cover" }}
               />
@@ -76,8 +77,8 @@ const Index = () => {
           <div className="md:w-1/2 w-full">
             <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
               <Image
-                src="/images/puppy.jpg"
-                alt="horse.jpg"
+                src="/images/instrument_3.jpg"
+                alt='instrument image'
                 fill
                 style={{ objectFit: "cover" }}
               />
@@ -88,7 +89,7 @@ const Index = () => {
       </div>
 
       <div className="max-w-5xl mx-auto px-5 py-16">
-        <div className="flex flex-col md:flex-row items-center gap-12">
+        <div className="flex flex-col md:flex-row-reverse items-center gap-12">
           <div className="md:w-1/2 h-56 md:h-64 flex items-center">
             <div>
               <h3 className="text-3xl font-semibold text-neutral-800 mb-4">
@@ -103,7 +104,7 @@ const Index = () => {
           <div className="md:w-1/2 w-full">
             <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
               <Image
-                src="/images/puppy.jpg"
+                src="/images/instrument_1.jpg"
                 alt="horse.jpg"
                 fill
                 style={{ objectFit: "cover" }}
@@ -129,7 +130,7 @@ const Index = () => {
           <div className="md:w-1/2 w-full">
             <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-56 md:h-64 relative">
               <Image
-                src="/images/puppy.jpg"
+                src="/images/instrument_2.jpg"
                 alt="horse.jpg"
                 fill
                 style={{ objectFit: "cover" }}
@@ -139,6 +140,8 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <Products />
     </Section>
   );
 };
