@@ -40,11 +40,12 @@ export default function Products() {
             <header className="border-b border-gray-300 bg-gradient-to-b from-white/20 to-black/5">
                 <div className="container mx-auto px-4 py-20">
                     <div className="max-w-3xl">
-
-                        <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight text-gray-800">
+                        <h1 className="relative text-3xl md:text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight text-gray-800">
                             Our Products
+
+                            <div class="absolute -bottom-2 left-0 w-3/4 border-b-1 border-black-500"></div>
                         </h1>
-                        <p className="text-xl text-muted-foreground leading-relaxed text-gray-600">
+                        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-gray-600">
                             Comprehensive veterinary solutions designed for excellence in animal healthcare.
                             Quality that professionals trust.
                         </p>
@@ -52,7 +53,7 @@ export default function Products() {
                 </div>
             </header>
 
-            <main className="container mx-auto px-4 py-16">
+            <main className="container mx-auto px-4 py-4 md:py-16">
                 <div className="max-w-5xl mx-auto">
                     {product_category.map((product, index) => {
                         const IconComponent = product.icon;
@@ -64,7 +65,7 @@ export default function Products() {
                             >
                                 <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-[#217f7f] origin-top scale-y-0 transition-transform duration-400 ease-out group-hover:scale-y-100 rounded-md py-2" />
 
-                                <div className="flex gap-8 items-start">
+                                <div className="flex flex-col md:flex-row gap-8 items-start">
                                     <div className="flex-shrink-0 hidden md:block">
                                         <div className="w-20 text-right">
                                             <span className="text-6xl font-bold text-gray-400 text-muted/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -83,7 +84,7 @@ export default function Products() {
                                     </div>
 
                                     <div className="flex-1 min-w-0">
-                                        <h2 className="text-2xl md:text-3xl font-bold  text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
+                                        <h2 className="text-xl md:text-3xl font-bold  text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
                                             {product.title}
                                         </h2>
                                         {product.subtitle && (
@@ -95,7 +96,7 @@ export default function Products() {
                                             {product.description}
                                         </p>
 
-                                        <button className="inline-flex items-center gap-2 text-primary font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <button className="inline-flex items-center gap-2 text-primary font-semibold opacity-100 md:opacity-0  md:group-hover:opacity-100 transition-opacity duration-300">
                                             <span className="text-[#217f7f] hover:cursor-pointer">Learn more</span>
                                             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                         </button>
@@ -108,7 +109,7 @@ export default function Products() {
                     })}
                 </div>
 
-                <div className="mt-24 max-w-5xl mx-auto">
+                <div className="mt-15 md:mt-24 max-w-5xl mx-auto">
                     <div className="border-t border-b border-gray-300 py-12">
                         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                             <div>
@@ -116,7 +117,7 @@ export default function Products() {
                                     Need detailed specifications?
                                 </h3>
                                 <p className="text-muted-foreground text-gray-600">
-                                    Contact our team for pricing and product information
+                                    Contact our team for pricing and product information.
                                 </p>
                             </div>
                             <Button>

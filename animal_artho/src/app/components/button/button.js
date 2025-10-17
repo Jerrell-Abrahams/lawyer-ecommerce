@@ -19,9 +19,9 @@ const Button = ({
   };
 
   const defaultStyle =
-    "bg-[#217f7f] text-white hover:bg-white hover:text-black text-center cursor-pointer transition-all duration-300";
+    "bg-[#217f7f] text-gray-100 hover:bg-white hover:text-gray-600 text-center cursor-pointer transition-all duration-300";
   const inverseStyle =
-    "bg-white text-[#217f7f] hover:bg-[#217f7f] hover:text-white border-[#217f7f] cursor-pointer transition-all duration-300";
+    "bg-white text-[#217f7f] text-gray-600 hover:bg-[#217f7f] hover:text-gray-100 border-[#217f7f] cursor-pointer transition-all duration-300";
 
   const variantClass =
     variant === "inverse" ? inverseStyle : defaultStyle;
