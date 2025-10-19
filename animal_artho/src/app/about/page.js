@@ -7,13 +7,13 @@ import Hero from '../components/hero/hero';
 export default function AboutPage() {
     return (
         <div>
-            <Section className="pt-20">
-                <div className="flex flex-col items-center py-8">
+            <Section >
+                <div className="flex flex-col items-center py-8 ">
                     <h1 className="text-5xl font-extrabold text-neutral-800 mb-2">
                         About Us
                     </h1>
                     <p className="text-xl text-gray-600 mb-6 text-center max-w-2xl">
-                        We are a specialized supplier of veterinary-grade orthopedic prosthetics and components, working with clinics and professionals to improve the quality of life for animals across the country.
+                        Animal Ortho Solutions (Pty) Ltd equips veterinarians with precision-crafted instruments, implants, and consumables designed to enhance patient care. The team focuses on providing tailored solutions that address the specific needs of veterinary professionals, ensuring affordability and quality.
                     </p>
                 </div>
 

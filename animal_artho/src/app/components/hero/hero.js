@@ -16,7 +16,7 @@ const Hero = ({ variant, image }) => {
   }
 
   return (
-    <div className="container mx-auto w-full max-w-5xl text-center ">
+    <div className="mx-auto w-full max-w-5xl text-center ">
       <div className="animate-fade-in justify-center items-center flex flex-col min-h-[70vh] px-4 sm:px-0">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
           Precision Orthopaedic,

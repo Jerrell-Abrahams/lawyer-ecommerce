@@ -43,7 +43,7 @@ export default function Products() {
                         <h1 className="relative text-3xl md:text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight text-gray-800">
                             Our Products
 
-                            <div class="absolute -bottom-2 left-0 w-3/4 border-b-1 border-black-500"></div>
+                            <div className="absolute -bottom-2 left-0 w-3/4 border-b-1 border-black-500"></div>
                         </h1>
                         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-gray-600">
                             Comprehensive veterinary solutions designed for excellence in animal healthcare.
